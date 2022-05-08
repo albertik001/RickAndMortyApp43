@@ -32,5 +32,10 @@
             android:name="model"
             app:argType="com.geektech.rickandmortyapp43.models.Characters" />
     </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.geektech.rickandmortyapp43.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" />
 
 </navigation>
