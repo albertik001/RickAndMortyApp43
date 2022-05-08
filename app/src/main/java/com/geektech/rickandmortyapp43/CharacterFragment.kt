@@ -42,6 +42,7 @@ class CharacterFragment : Fragment() {
         characters.add(Characters("Albert Einstein", "Dead", R.drawable.rick))
         characters.add(Characters("Jerry Smith", "Alive", R.drawable.jerry))
         characters.add(Characters("Sashka Zver", "Alive", R.drawable.morty))
+        characters.add(Characters("Sashka Zver", "Alive", R.drawable.morty))
     }
 
     private fun onItemClick(model: Characters) {
